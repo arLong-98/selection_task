@@ -1,0 +1,51 @@
+.contact-container{
+    background: #171717;
+    display: grid;
+    grid-template-columns: repeat(2,1fr) repeat(2,2fr);
+    grid-gap: 10px;
+    padding: 50px;
+}
+
+.contact-card-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control input{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background: black;
+    color: white;
+}
+
+.form-btn{
+    background: orangered;
+    color: white;
+    font-weight: 600;
+    width: 30%;
+    padding: 10px;
+    margin-top:15px ;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.contact-title{
+    color: white;
+}
+
+.contact-body{
+    margin-top: 20px;
+    color: white;
+    line-height: 1.6;
+}
+
