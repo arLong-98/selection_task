@@ -1,6 +1,7 @@
 .card-container{
     display: flex;
     width: 100%;
+    min-height: 400px;
 }
 
 .card-content{
@@ -46,9 +47,11 @@
 .img-container{
     padding: 0;
     margin-right: 20px;
+    min-height: inherit;
 }
 .img-container img{
     width: 500px;
+    min-height: inherit;
 }
 
 .list-container{
